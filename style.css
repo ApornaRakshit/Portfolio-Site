@@ -1,0 +1,17 @@
+.logo{
+    height: 125px;
+    width: 125px;
+}
+.banner-container{
+    height: 430px;
+    
+    /* background-color: black; */
+}
+.banner-img{
+    height: 430px;
+    width: 250px;
+}
+.project-img{
+    width: 568px;
+    height: 288px;
+}
