@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     </head>
 <body >
-    <header class="mb-24">
+    <header>
         <nav class="navbar container navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img class="logo" src="icons/logo.png" alt=""></a>
@@ -45,7 +45,9 @@
                           </a>
                         </li>
                     </ul>
-                  <button class="btn btn-outline-info" type="submit"><a href="projects-img/Travel-Search.png" download class="download-btn">Resume <i class="fa fa-download"></i></a></button>
+                  <button class="btn btn-outline-info" type="submit">
+                    <a href="projects-img/Travel-Search.png" download class="download-btn">Resume</a>
+                  </button>
                 </form>
               </div>
             </div>
@@ -56,7 +58,7 @@
                   <div class="carousel-item active" data-bs-interval="10000">
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
-                            <h1 class="text-info fw-bold">Hi! <br>I'M GIAS UDDIN</h1>
+                            <h1 class="text-info fw-bold">Hi!<br>I'M GIAS UDDIN</h1>
                         <h5 class="fw-semibold">Web Developer || React Developer || Programmer</h5>
                         <p>I am an enthusiastic JavaScript developer with knowing some framework for the<br> 
                             frontend and the backend. I know Basic PHP and MySQL but basically a MERN<br> 
@@ -72,9 +74,9 @@
           </section>
     </header>
     <main>
-        <section class="mt-5 container">
+        <section class="container">
             <h2 class="text-center fw-semibold">Portfolio</h2>
-            <section class="banner-container container">
+            <div class="banner-container container">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active" data-bs-interval="10000">
@@ -95,13 +97,20 @@
                                Uer Can Login via (Google,Facebook,Github)also <br>
                               can Create Account.
                             </p>
+                            <div>
+                              <button type="button" class="btn btn-secondary">React</button>
+                              <button type="button" class="btn btn-secondary">Firebase</button>
+                              <button type="button" class="btn btn-secondary">HTML</button>
+                              <button type="button" class="btn btn-secondary">CSS</button>
+                              <button type="button" class="btn btn-secondary">Node</button>
+                            </div>
                             </div> 
                         </div>
                       </div>
                     </div>
                   </div>
-              </section>
-            <section class="banner-container container">
+            </div>
+            <div class="banner-container container">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active" data-bs-interval="10000">
@@ -122,12 +131,74 @@
                                Uer Can Login via (Google,Facebook,Github)also <br>
                               can Create Account.
                             </p>
+                            <div>
+                              <button type="button" class="btn btn-secondary">React</button>
+                              <button type="button" class="btn btn-secondary">Firebase</button>
+                              <button type="button" class="btn btn-secondary">HTML</button>
+                              <button type="button" class="btn btn-secondary">CSS</button>
+                              <button type="button" class="btn btn-secondary">Node</button>
+                            </div>
                             </div> 
-                        </div>
+                          </div>
                       </div>
                     </div>
                   </div>
-              </section>
+              </div>
+        </section>
+        <section class="d-flex container align-items-center justify-content-around">
+          <div>
+            <div>
+              <h3 class="fw-semibold container">Expertise:</h3>
+              <div class="px-4 pb-2 container">
+                  <button type="button" class="btn btn-secondary">React.js</button>
+                  <button type="button" class="btn btn-secondary">JavaScript</button>
+                  <button type="button" class="btn btn-secondary">Node.js</button>
+                  <button type="button" class="btn btn-secondary">Firebase</button>
+              </div>
+              <div class="px-4 pb-5 container">
+                  <button type="button" class="btn btn-secondary">Express.js</button>
+                  <button type="button" class="btn btn-secondary">HTML</button>
+                  <button type="button" class="btn btn-secondary">Bootstrap</button>
+                  <button type="button" class="btn btn-secondary">MongoDB</button>
+              </div>
+            </div>
+            <div>
+              <h3 class="fw-semibold container">Comfortable:</h3>
+              <div class="px-4 pb-5 container">
+                <button type="button" class="btn btn-secondary">SQL</button>
+                <button type="button" class="btn btn-secondary">Redux</button>
+                <button type="button" class="btn btn-secondary">Socket.io</button>
+                <button type="button" class="btn btn-secondary">AWS</button>
+                <button type="button" class="btn btn-secondary">Docker</button>
+                <button type="button" class="btn btn-secondary">Typescript</button>
+                <button type="button" class="btn btn-secondary">Next.js</button>
+            </div>
+            </div>
+            <div>
+              <h3 class="fw-semibold container">Familiar:</h3>
+              <div class="px-4 pb-5 container">
+                <button type="button" class="btn btn-secondary">C++</button>
+                <button type="button" class="btn btn-secondary">Python</button>
+                <button type="button" class="btn btn-secondary">Spring Boot</button>
+                <button type="button" class="btn btn-secondary">Networking</button>
+            </div>
+            </div>
+            <div>
+              <h3 class="fw-semibold container">Tools:</h3>
+              <div class="px-4 pb-5 container">
+                <button type="button" class="btn btn-secondary">VS Code</button>
+                <button type="button" class="btn btn-secondary">JIRA</button>
+                <button type="button" class="btn btn-secondary">Trello</button>
+                <button type="button" class="btn btn-secondary">Git</button>
+            </div>
+            </div>
+            <div>
+            </div>
+          </div>
+          <div class="text-center">
+            <h3 class="text-info fw-bold">My Education</h3>
+            <p>B.Sc in Software Engineering, <br> Yunnan University ( Kunming,Yunnan,China )<br>2018-2022</p>
+          </div>
         </section>
     </main>
     <footer></footer>
